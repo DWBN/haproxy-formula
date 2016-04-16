@@ -14,7 +14,7 @@ haproxy-ppa:
   pkgrepo.managed:
     - humanname: vbernat PPA
     - name: deb http://ppa.launchpad.net/vbernat/haproxy-1.5/ubuntu trusty main
-    - keyid: 505D97A41C61B9CD
+    - keyid: 1C61B9CD
     - dist: trusty
     - file: /etc/apt/sources.list.d/haproxy.list
     - require_in:
