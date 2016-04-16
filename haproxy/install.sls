@@ -15,6 +15,7 @@ haproxy-ppa:
     - humanname: vbernat PPA
     - name: deb http://ppa.launchpad.net/vbernat/haproxy-1.5/ubuntu trusty main
     - keyid: 1C61B9CD
+    - keyserver: keyserver.ubuntu.com
     - dist: trusty
     - file: /etc/apt/sources.list.d/haproxy.list
     - require_in:
