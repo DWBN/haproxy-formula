@@ -1,7 +1,7 @@
 haproxy.install:
   pkg.installed:
     - name: haproxy
-    - version: '1.5.15'
+    - version: '1.6.4-3'
 {% if salt['pillar.get']('haproxy:require') %}
     - require:
 {% for item in salt['pillar.get']('haproxy:require') %}
