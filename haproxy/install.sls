@@ -13,7 +13,7 @@ haproxy.install:
 haproxy-ppa:
   pkgrepo.managed:
     - humanname: vbernat PPA
-    - name: deb http://ppa.launchpad.net/vbernat/haproxy-1.5/ubuntu trusty main
+    - name: deb http://ppa.launchpad.net/vbernat/haproxy-1.6/ubuntu trusty main
     - keyid: 1C61B9CD
     - keyserver: keyserver.ubuntu.com
     - dist: trusty
