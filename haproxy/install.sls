@@ -20,3 +20,9 @@ haproxy-ppa:
     - file: /etc/apt/sources.list.d/haproxy.list
     - require_in:
       - pkg: haproxy
+
+/etc/haproxy/certs:
+  file.directory:
+    - user: root
+    - require:
+      - pkg: haproxy
